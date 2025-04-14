@@ -649,7 +649,7 @@
 
          ! --- Thickness correction (begin) ---
          !  n.b. this mecanism balance isopicnals of the model before it explodes
-         !       of before layers get null thicknesses.
+         !       or before layers get null thicknesses.
          !
          if (.true.) then
             do k = 1,nz-1
